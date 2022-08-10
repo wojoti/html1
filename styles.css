@@ -1,0 +1,163 @@
+body {
+    margin: 0%;
+    background-color: whitesmoke;
+    font-family:Helvetica, Arial,sans-serif;
+}
+.navbar {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ position: fixed;
+ top: 0;
+ right: 0;
+ left: 0;
+ outline-style: solid;
+ outline-width: 2px;
+ outline-color: lightgrey;
+ height: 80px;
+ background-color: whitesmoke;
+}
+.logo {
+    display:flex;
+    justify-content:center;
+    max-height: 37px;
+}
+.navbuttons {
+    margin-left: 200px;
+}
+.navbuttonsAttr {
+    margin: 20px;
+    font-weight: bold;
+}
+.navbuttons button {
+    transition-duration: 0.7s;
+    color:white;
+    background-color: #0195ff;
+    font-size: 110%;
+    border-radius: 8px;
+    border:0px solid #0195ff;
+    padding:12px 32px;
+
+
+}
+.navbuttons button:hover {
+    color:grey;
+    border: 1px solid grey;
+    background-color: white;
+}
+.mainbody {
+    padding-top:150px;
+}
+.maintext1 {
+display:flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+font-size: 160%;
+margin-bottom: 60px;
+}
+.maintext2 {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 170%;
+    margin-bottom: 20px;
+    margin-top: 60px;
+    }
+
+.maintext1 p {
+    color:gray;
+    font-size: 80%;
+    margin-top: 0;
+    }
+
+.optionsSelect {
+ display: flex;
+ justify-content: center;
+    }
+.option {
+    background-color: white;
+    border: 1px solid lightgrey;
+    min-width: 150px;
+    border-radius: 15px;
+    font-size: 115%;
+    width: 320px;
+    padding: 15px 35px;
+    color: gray;
+}
+#optCenter {
+    margin-left:25px;
+    margin-right:25px;
+}
+.optionTop {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    color:black;
+}
+.optionTopSave{
+    font-weight: bold;
+    background-color: #f2f2f2;
+    padding: 6px 13px;
+    border-radius: 16px;
+}
+.optionTopSave2{
+    color: white;
+    font-weight: bold;
+    background-color: #0195ff;
+    padding: 6px 13px;
+    border-radius: 16px;
+}
+.priceThicc {
+    font-size: 250%;
+    color: black;
+    font-weight: bolder;
+}
+.attrThicc {
+    font-weight: bolder;
+}
+.attrButton {
+    transition-duration: 0.7s;
+    background-color: white;
+    border:1px solid gray;
+    border-radius: 8px;
+    font-weight: bolder;
+    font-size: 90%;
+    padding:  4% 11%;
+    margin:8% 0%;
+}
+
+.attrButton:hover {
+    background-color: white;
+    border:1px solid #0195ff;
+    border-radius: 8px;
+    font-weight: bolder;
+    font-size: 90%;
+    padding:  4% 11%;
+    margin:8% 0%;
+    color:#0195ff;
+}
+
+.attrButton2 {
+    transition-duration: 0.7s;
+    background-color: #0195ff;
+    border:1px solid #0195ff;
+    border-radius: 8px;
+    font-weight: bolder;
+    font-size: 90%;
+    padding:  4% 11%;
+    margin:8% 0%;
+    color: white;
+}
+
+.attrButton2:hover {
+    background-color: white;
+    border:1px solid gray;
+    border-radius: 8px;
+    font-weight: bolder;
+    font-size: 90%;
+    padding:  4% 11%;
+    margin:8% 0%;
+    color: black;
+}
