@@ -417,16 +417,18 @@ body {
 }
 
 .carouselPerson {
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: flex-start;
     margin-top: 10px;
 }
-.carouselPerson-l img{
+
+.carouselPerson-l img {
     border-radius: 50%;
     width: 50px;
     margin-right: 10px;
 }
+
 .carouselPerson-r {
     min-width: 130px;
 }
@@ -434,13 +436,15 @@ body {
 .cP-rt1 {
     color: black;
     margin: 0px;
- font-weight: bold;
+    font-weight: bold;
 }
+
 .cP-rt2 {
     margin-top: 4px;
     margin-bottom: 4px;
     font-size: 15px;
 }
+
 .cP-rt3 {
     margin-bottom: 25px;
     font-size: 10px;
@@ -450,26 +454,30 @@ body {
     margin-left: 25px;
     margin-right: 25px;
 }
+
 .bottomSpace {
     padding-top: 100px;
-    display:flex;
+    display: flex;
     justify-content: center;
     flex-direction: row;
     margin-bottom: 50px;
 }
-.boxLogo-logo{
+
+.boxLogo-logo {
     width: 170px;
 }
+
 .boxLogo {
-    display:flex;
+    display: flex;
     flex-direction: column;
     color: gray;
     width: 400px;
     line-height: 35px;
     font-size: 18px;
 }
+
 .bottomSpace-col {
-    display:flex;
+    display: flex;
     flex-direction: column;
     margin-left: 50px;
     margin-right: 50px;
@@ -477,28 +485,34 @@ body {
     font-size: 19px;
 
 }
-.bottomSpace-col h4{
+
+.bottomSpace-col h4 {
     margin-top: 0px;
     margin-bottom: 9px;
 
 }
 
-.bottomSpace-col a{
-    color:grey;
+.bottomSpace-col a {
+    color: grey;
     font-size: 19px;
     text-decoration: none !important;
 }
+
 .footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 20px 300px;
 }
-.ft,.ft a,.ft p {
+
+.ft,
+.ft a,
+.ft p {
     color: grey;
     text-decoration: none !important;
     font-size: 17px;
 }
+
 .ft a {
     margin: 5px;
 }
