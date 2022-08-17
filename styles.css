@@ -364,6 +364,7 @@ body {
 .restOfSite {
     background-image: linear-gradient(#fbfbfd, white);
 }
+
 .restOfSite-h {
     display: flex;
     justify-content: center;
@@ -400,11 +401,13 @@ body {
     padding: 15px 35px;
     color: gray;
 }
+
 .carouselText {
-    display:flex;
+    display: flex;
     justify-content: space-evenly;
     line-height: 25px;
 }
+
 .carouselMark {
     font-size: 90px;
     margin-top: 45px;
