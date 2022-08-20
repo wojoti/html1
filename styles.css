@@ -1,518 +1,513 @@
 body {
-    margin: 0%;
-    background-color: #fbfbfd;
-    font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+  background-color: #fbfbfd;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 .navbar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    outline-style: solid;
-    outline-width: 2px;
-    outline-color: lightgrey;
-    height: 80px;
-    background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  outline-style: solid;
+  outline-width: 2px;
+  outline-color: lightgrey;
+  height: 80px;
+  background-color: white;
 }
 
 .logo {
-    display: flex;
-    justify-content: center;
-    max-height: 37px;
+  display: flex;
+  justify-content: center;
+  max-height: 37px;
 }
 
 .navbuttons {
-    margin-left: 200px;
+  margin-left: 200px;
 }
 
 .navbuttonsAttr {
-    margin: 20px;
-    font-weight: bold;
+  margin: 20px;
+  font-weight: bold;
 }
 
 .navbuttons button {
-    transition-duration: 0.7s;
-    color: white;
-    background-color: #0195ff;
-    font-size: 110%;
-    border-radius: 8px;
-    border: 0px solid #0195ff;
-    padding: 12px 32px;
-
-
+  transition-duration: 0.7s;
+  color: white;
+  background-color: #0195ff;
+  font-size: 110%;
+  border-radius: 8px;
+  border: 0px solid #0195ff;
+  padding: 12px 32px;
 }
 
 .navbuttons button:hover {
-    color: grey;
-    border: 1px solid grey;
-    background-color: white;
+  color: grey;
+  border: 1px solid grey;
+  background-color: white;
 }
 
 .mainbody {
-    padding-top: 150px;
+  padding-top: 150px;
 }
 
 .maintext1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    font-size: 160%;
-    margin-bottom: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 160%;
+  margin-bottom: 60px;
 }
 
 .maintext2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    font-size: 170%;
-    margin-bottom: 20px;
-    margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 170%;
+  margin-bottom: 20px;
+  margin-top: 60px;
 }
 
 .maintext1 p {
-    color: gray;
-    font-size: 80%;
-    margin-top: 0;
+  color: gray;
+  font-size: 80%;
+  margin-top: 0;
 }
 
 .optionsSelect {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .option {
-    background-color: white;
-    border: 1px solid lightgrey;
-    min-width: 150px;
-    border-radius: 15px;
-    font-size: 115%;
-    width: 320px;
-    padding: 15px 35px;
-    color: gray;
+  background-color: white;
+  border: 1px solid lightgrey;
+  min-width: 150px;
+  border-radius: 15px;
+  font-size: 115%;
+  width: 320px;
+  padding: 15px 35px;
+  color: gray;
 }
 
 #optCenter {
-    margin-left: 25px;
-    margin-right: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 .optionTop {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
 }
 
 .optionTopSave {
-    font-weight: bold;
-    background-color: #f2f2f2;
-    padding: 6px 13px;
-    border-radius: 16px;
+  font-weight: bold;
+  background-color: #f2f2f2;
+  padding: 6px 13px;
+  border-radius: 16px;
 }
 
 .optionTopSave2 {
-    color: white;
-    font-weight: bold;
-    background-color: #0195ff;
-    padding: 6px 13px;
-    border-radius: 16px;
+  color: white;
+  font-weight: bold;
+  background-color: #0195ff;
+  padding: 6px 13px;
+  border-radius: 16px;
 }
 
 .priceThicc {
-    font-size: 250%;
-    color: black;
-    font-weight: bolder;
+  font-size: 250%;
+  color: black;
+  font-weight: bolder;
 }
 
 .attrThicc {
-    font-weight: bolder;
+  font-weight: bolder;
 }
 
 .attrButton {
-    transition-duration: 0.7s;
-    background-color: white;
-    border: 1px solid gray;
-    border-radius: 8px;
-    font-weight: bolder;
-    font-size: 90%;
-    padding: 4% 11%;
-    margin: 8% 0%;
+  transition-duration: 0.7s;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 8px;
+  font-weight: bolder;
+  font-size: 90%;
+  padding: 4% 11%;
+  margin: 8% 0%;
 }
 
 .attrButton:hover {
-    background-color: white;
-    border: 1px solid #0195ff;
-    border-radius: 8px;
-    font-weight: bolder;
-    font-size: 90%;
-    padding: 4% 11%;
-    margin: 8% 0%;
-    color: #0195ff;
+  background-color: white;
+  border: 1px solid #0195ff;
+  border-radius: 8px;
+  font-weight: bolder;
+  font-size: 90%;
+  padding: 4% 11%;
+  margin: 8% 0%;
+  color: #0195ff;
 }
 
 .attrButton2 {
-    transition-duration: 0.7s;
-    background-color: #0195ff;
-    border: 1px solid #0195ff;
-    border-radius: 8px;
-    font-weight: bolder;
-    font-size: 90%;
-    padding: 4% 11%;
-    margin: 8% 0%;
-    color: white;
+  transition-duration: 0.7s;
+  background-color: #0195ff;
+  border: 1px solid #0195ff;
+  border-radius: 8px;
+  font-weight: bolder;
+  font-size: 90%;
+  padding: 4% 11%;
+  margin: 8% 0%;
+  color: white;
 }
 
 .attrButton2:hover {
-    background-color: white;
-    border: 1px solid gray;
-    border-radius: 8px;
-    font-weight: bolder;
-    font-size: 90%;
-    padding: 4% 11%;
-    margin: 8% 0%;
-    color: black;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 8px;
+  font-weight: bolder;
+  font-size: 90%;
+  padding: 4% 11%;
+  margin: 8% 0%;
+  color: black;
 }
 
 .compareTable {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .compareTable table {
-    width: 64%;
-    border-collapse: collapse;
+  width: 64%;
+  border-collapse: collapse;
 }
 
 .tHead th {
-    border-bottom: 1px solid black;
-    padding-bottom: 15px;
-    font-weight: bold;
+  border-bottom: 1px solid black;
+  padding-bottom: 15px;
+  font-weight: bold;
 }
 
 .tBody td {
-    padding: 10px;
-    font-weight: bold;
-    border-bottom: 1px solid lightgray;
-    text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  border-bottom: 1px solid lightgray;
+  text-align: center;
 }
 
 .underTableInfo {
-    padding-top: 60px;
-    text-align: center;
-    color: gray;
-    font-size: large;
+  padding-top: 60px;
+  text-align: center;
+  color: gray;
+  font-size: large;
 }
 
 .underTableInfo p {
-    padding: 0 27%;
-    line-height: 180%;
+  padding: 0 27%;
+  line-height: 180%;
 }
 
 .paymentInfo {
-    display: flex;
-    justify-content: center;
-    padding: 1% 0%;
+  display: flex;
+  justify-content: center;
+  padding: 1% 0%;
 }
 
 .paymentInfo p {
-    line-height: 25px;
-    font-size: 16px;
-    color: gray;
-    padding-bottom: 60px;
+  line-height: 25px;
+  font-size: 16px;
+  color: gray;
+  padding-bottom: 60px;
 }
 
 .pI-box1 img {
-    width: 50px;
-    height: 50px;
-    padding-right: 10px;
+  width: 50px;
+  height: 50px;
+  padding-right: 10px;
 }
 
 .pI-box1 {
-    width: 500px;
+  width: 500px;
 }
 
 .pI-box2 {
-    width: 380px;
-    padding-right: 40px;
+  width: 380px;
+  padding-right: 40px;
 }
 
 .pI-box3 {
-    width: 300px;
+  width: 300px;
 }
 
 .midBorder {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    background-color: white;
-    border: 1px solid lightgrey;
-    width: 1300px;
-    height: 200px;
-    border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: white;
+  border: 1px solid lightgrey;
+  width: 1300px;
+  height: 200px;
+  border-radius: 15px;
 }
 
 .midBorderCtr {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .midBorder-l {
-    font-size: 38px;
-    font-weight: bold;
-    width: 800px;
+  font-size: 38px;
+  font-weight: bold;
+  width: 800px;
 }
 
 .midBorder-r {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .midBorder-r button {
-    transition-duration: 0.7s;
-    color: white;
-    background-color: #0195ff;
-    font-weight: bold;
-    font-size: 110%;
-    border-radius: 6px;
-    border: 0px solid #0195ff;
-    padding: 18px 32px;
-
+  transition-duration: 0.7s;
+  color: white;
+  background-color: #0195ff;
+  font-weight: bold;
+  font-size: 110%;
+  border-radius: 6px;
+  border: 0px solid #0195ff;
+  padding: 18px 32px;
 }
 
 .midBorder-r a {
-    margin-top: 20px;
-    color: grey;
+  margin-top: 20px;
+  color: grey;
 }
 
 .whiteSpace {
-    background-color: white;
-    margin-top: -100px;
+  background-color: white;
+  margin-top: -100px;
 }
 
 .whiteSpace-h {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding-top: 200px;
-    font-size: 200%;
-    margin-bottom: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 200px;
+  font-size: 200%;
+  margin-bottom: 60px;
 }
 
 .whiteSpace-h h2 {
-    margin-bottom: 0px;
+  margin-bottom: 0px;
 }
 
 .whiteSpace-h p {
-    width: 750px;
-    color: grey;
-    font-size: 20px;
-    line-height: 30px;
-    text-align: center;
+  width: 750px;
+  color: grey;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
 }
 
 .whiteSpace-2rows {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .whiteSpace-c1 {
-    display: flex;
-    flex-direction: column;
-    width: 620px;
-    margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  width: 620px;
+  margin-right: 30px;
 }
 
 .whiteSpace-c1 p,
 .whiteSpace-c2 p {
-    line-height: 30px;
-    font-size: 120%;
-    color: gray;
+  line-height: 30px;
+  font-size: 120%;
+  color: gray;
 }
 
 .whiteSpace-c1 h3,
 .whiteSpace-c2 h3 {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .whiteSpace-c2 {
-    display: flex;
-    flex-direction: column;
-    width: 620px;
-    margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  width: 620px;
+  margin-left: 30px;
 }
 
 .whiteSpace-f {
-    display: flex;
-    justify-content: center;
-    margin-top: 80px;
-    padding-bottom: 80px;
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  padding-bottom: 80px;
 }
 
 .whiteSpace-f a {
-    color: grey;
+  color: grey;
 }
 
 .restOfSite {
-    background-image: linear-gradient(#fbfbfd, white);
+  background-image: linear-gradient(#fbfbfd, white);
 }
 
 .restOfSite-h {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding-top: 50px;
-    font-size: 200%;
-    margin-bottom: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 50px;
+  font-size: 200%;
+  margin-bottom: 60px;
 }
 
 .restOfSite-h h2 {
-    margin-bottom: 0px;
+  margin-bottom: 0px;
 }
 
 .restOfSite-h p {
-    width: 750px;
-    color: grey;
-    font-size: 20px;
-    line-height: 30px;
-    text-align: center;
+  width: 750px;
+  color: grey;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
 }
 
 .carouselSelect {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .carousel {
-    background-color: white;
-    border: 1px solid lightgrey;
-    border-radius: 15px;
-    font-size: 115%;
-    width: 260px;
-    padding: 15px 35px;
-    color: gray;
+  background-color: white;
+  border: 1px solid lightgrey;
+  border-radius: 15px;
+  font-size: 115%;
+  width: 260px;
+  padding: 15px 35px;
+  color: gray;
 }
 
 .carouselText {
-    display: flex;
-    justify-content: space-evenly;
-    line-height: 25px;
+  display: flex;
+  justify-content: space-evenly;
+  line-height: 25px;
 }
 
 .carouselMark {
-    font-size: 90px;
-    margin-top: 45px;
-    margin-right: 5px;
-     margin-bottom: 0px;
+  font-size: 90px;
+  margin-top: 45px;
+  margin-right: 5px;
+  margin-bottom: 0px;
 }
 
 .carouselPerson {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 10px;
 }
 
 .carouselPerson-l img {
-    border-radius: 50%;
-    width: 50px;
-    margin-right: 10px;
+  border-radius: 50%;
+  width: 50px;
+  margin-right: 10px;
 }
 
 .carouselPerson-r {
-    min-width: 130px;
+  min-width: 130px;
 }
 
 .cP-rt1 {
-    color: black;
-    margin: 0px;
-    font-weight: bold;
+  color: black;
+  margin: 0px;
+  font-weight: bold;
 }
 
 .cP-rt2 {
-    margin-top: 4px;
-    margin-bottom: 4px;
-    font-size: 15px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  font-size: 15px;
 }
 
 .cP-rt3 {
-    margin-bottom: 25px;
-    font-size: 10px;
+  margin-bottom: 25px;
+  font-size: 10px;
 }
 
 #carCenter {
-    margin-left: 25px;
-    margin-right: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 .bottomSpace {
-    padding-top: 100px;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    margin-bottom: 50px;
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-bottom: 50px;
 }
 
 .boxLogo-logo {
-    width: 170px;
+  width: 170px;
 }
 
 .boxLogo {
-    display: flex;
-    flex-direction: column;
-    color: gray;
-    width: 400px;
-    line-height: 35px;
-    font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  color: gray;
+  width: 400px;
+  line-height: 35px;
+  font-size: 18px;
 }
 
 .bottomSpace-col {
-    display: flex;
-    flex-direction: column;
-    margin-left: 50px;
-    margin-right: 50px;
-    line-height: 35px;
-    font-size: 19px;
-
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  margin-right: 50px;
+  line-height: 35px;
+  font-size: 19px;
 }
 
 .bottomSpace-col h4 {
-    margin-top: 0px;
-    margin-bottom: 9px;
-
+  margin-top: 0px;
+  margin-bottom: 9px;
 }
 
 .bottomSpace-col a {
-    color: grey;
-    font-size: 19px;
-    text-decoration: none !important;
+  color: grey;
+  font-size: 19px;
+  text-decoration: none !important;
 }
 
 .footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 20px 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 300px;
 }
 
 .ft,
 .ft a,
 .ft p {
-    color: grey;
-    text-decoration: none !important;
-    font-size: 17px;
+  color: grey;
+  text-decoration: none !important;
+  font-size: 17px;
 }
 
 .ft a {
-    margin: 5px;
+  margin: 5px;
 }
